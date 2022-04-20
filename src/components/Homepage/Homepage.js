@@ -8,7 +8,7 @@ const Homepage = () => {
         <h1 className=' font-mono text-xl md:text-5xl '>
           Welcome to CRYPTO CAFE<span className='text-6xl'>☕</span>
         </h1>
-        <Link to='/coins'><button  className='py-2 px-3 text-white mt-3 rounded-full bg-cyan-800'>
+        <Link to='/coins'><button  className='py-2 px-3 text-white mt-3 rounded-full bg-cyan-600'>
           Explore Coins
         </button></Link>
       </div>
@@ -17,4 +17,3 @@ const Homepage = () => {
 }
 
 export default Homepage
-p
