@@ -18,7 +18,7 @@ const Coins = () => {
       <p className="text-center md-12 text-xl font-normal text-gray-700">
         Total Coins: {coins.length}
       </p>
-      <div className="grid gap-4 xs:grid-cols-1 grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center">
+      <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center">
         {coins.map((coin) => (
           <CoinCard key={coin.id} coin={coin}></CoinCard>
         ))}
